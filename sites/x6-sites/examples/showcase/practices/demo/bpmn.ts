@@ -111,6 +111,6 @@ fetch('../data/bpmn.json')
         cells.push(graph.createNode(item))
       }
     })
-    graph.resetCells(cells)
+    graph.resetCells(cells)；
     graph.zoomToFit({ padding: 10, maxScale: 1 })
   })
